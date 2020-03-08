@@ -25,21 +25,24 @@ body {
 
 .red {
   background-color: red;
-  -webkit-text-fill-color: red;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border-radius: 0 100% 0 10%;
   left: 380px;
 }
 
 .green {
   background-color: green;
-  -webkit-text-fill-color: green;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border-radius: 100% 0 10% 0;
   left: 380px;
 }
 
 .blue {
   background-color: blue;
-  -webkit-text-fill-color: blue;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border-radius: 10% 0 100% 0;
   left: 380px;
   bottom: 15px;
@@ -47,7 +50,8 @@ body {
 
 .yellow {
   background-color: yellow;
-  -webkit-text-fill-color: yellow;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border-radius: 0 10% 0 100%;
   left: 380px;
   bottom: 15px;
