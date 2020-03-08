@@ -25,18 +25,21 @@ body {
 
 .red {
   background-color: red;
+  -webkit-text-fill-color: red;
   border-radius: 0 100% 0 10%;
   left: 380px;
 }
 
 .green {
   background-color: green;
+  -webkit-text-fill-color: green;
   border-radius: 100% 0 10% 0;
   left: 380px;
 }
 
 .blue {
   background-color: blue;
+  -webkit-text-fill-color: blue;
   border-radius: 10% 0 100% 0;
   left: 380px;
   bottom: 15px;
@@ -44,6 +47,7 @@ body {
 
 .yellow {
   background-color: yellow;
+  -webkit-text-fill-color: yellow;
   border-radius: 0 10% 0 100%;
   left: 380px;
   bottom: 15px;
