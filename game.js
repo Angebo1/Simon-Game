@@ -30,7 +30,7 @@ function checkAnswer(currentLevel) {
       console.log(best);
       setTimeout(function() {
         nextSequence();
-      }, 1000);
+      }, 900);
     }
   } else {
     console.log("wrong");
@@ -71,7 +71,7 @@ function nextSequence() {
       i++;
       if (i== gamePattern.length)
         clearInterval(myInterval);
-    }, 500);
+    }, 400);
 }
 
 //resets values after player gets wrong answer in order to start over
