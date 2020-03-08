@@ -27,7 +27,7 @@ function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
 
     if (userClickedPattern.length === gamePattern.length) {
-      console.log(best, level);
+      console.log(best);
       setTimeout(function() {
         nextSequence();
       }, 1000);
@@ -40,10 +40,11 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
     $("h1").text("Game Over, Press Any Key to Restart");
+    if (best<=level){
+      best = level;
+      $("#best-score").text(best);
+    }
     startOver();
-    best = level;
-    $("#best-score").text(best);
-    
   }
 }
 
